@@ -33,8 +33,10 @@ A Python automation tool designed to process survey detection reports. It reads 
 
 3. **Install dependencies:**
    ```bash
-   pip install pandas
+   pip install -r requirements.txt # Install the libraries from the list
    ```
+
+   
 
 ## Usage
 
