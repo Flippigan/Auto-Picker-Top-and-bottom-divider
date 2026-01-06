@@ -81,6 +81,13 @@ def process_report(input_path: Path, output_dir: Path) -> dict:
     # Step 2: Convert UPN to integer
     df['UPN'] = df['UPN'].astype(int)
 
+    # Filter out rows where Top_Z or Bot_Z is zero
+    initial_count = len(df)
+    df = df[(df['Top_Z'] != 0) & (df['Bot_Z'] != 0)]
+    removed_count = initial_count - len(df)
+    if removed_count > 0:
+        print(f"Removed {removed_count} rows containing zero values in Top_Z or Bot_Z columns.")
+
     # Step 3 & 4: Create output DataFrames with coordinate swap (Y, X, Z order)
     # and handle detection status
 
