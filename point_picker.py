@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Auto Point Picker - Transform survey/detection data into coordinate files.
+Top and Bottom Splitter - Transform survey/detection data into coordinate files.
 
 Reads Final_Report.csv and generates two output files:
 - Auto Picked Top.csv (UPN, Top_Y, Top_X, Top_Z)

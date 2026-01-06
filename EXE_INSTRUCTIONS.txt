@@ -1,11 +1,11 @@
-Auto Point Picker - Windows Application
-=========================================
+Top and Bottom Splitter - Windows Application
+=============================================
 
 How to Run
 ----------
 1. Ensure your input file is named "Final_Report.csv".
-2. Place "Final_Report.csv" in the same folder as this application ("AutoPointPicker.exe").
-3. Double-click "AutoPointPicker.exe".
+2. Place "Final_Report.csv" in the same folder as this application ("TopAndBottomSplitter.exe").
+3. Double-click "TopAndBottomSplitter.exe".
 
 What to Expect
 --------------

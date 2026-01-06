@@ -1,4 +1,4 @@
-# Auto Point Picker
+# Top and Bottom Splitter
 
 A Python automation tool designed to process survey detection reports. It reads a `Final_Report.csv` file and generates specialized coordinate files for top and bottom points, ensuring correct data formatting and coordinate ordering for downstream systems.
 
