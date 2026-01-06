@@ -84,3 +84,26 @@ Must contain the following columns:
 - Format: Y coordinate comes before X.
 
 **Note:** For points where `Detected` is `False`, all coordinates will be set to `0`.
+
+## Building for Windows
+
+This project includes configuration to build a standalone `.exe` file for Windows users, eliminating the need to install Python.
+
+### Automated Build (GitHub Actions)
+Every push to the `main` branch automatically triggers a build.
+1. Go to the "Actions" tab in the GitHub repository.
+2. Click on the latest workflow run.
+3. Download the `AutoPointPicker-Windows` artifact.
+
+### Manual Build (Windows Only)
+If you are on a Windows machine:
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   pip install pyinstaller
+   ```
+2. Run the build command:
+   ```bash
+   pyinstaller point_picker.spec
+   ```
+3. The executable will be in the `dist/` folder.
