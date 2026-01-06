@@ -34,4 +34,6 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: AutoPointPicker-Windows
-        path: dist/AutoPointPicker.exe
+        path: |
+          dist/AutoPointPicker.exe
+          EXE_INSTRUCTIONS.txt
