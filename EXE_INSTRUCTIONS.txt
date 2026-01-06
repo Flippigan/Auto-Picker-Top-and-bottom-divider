@@ -3,25 +3,21 @@ Top and Bottom Splitter - Windows Application
 
 How to Run
 ----------
-1. Ensure your input file is named "Final_Report.csv".
-2. Place "Final_Report.csv" in the same folder as this application ("TopAndBottomSplitter.exe").
-3. Double-click "TopAndBottomSplitter.exe".
+1. Double-click "TopAndBottomSplitter.exe".
+2. Click the "Browse..." button.
+3. Select your input CSV file (usually "Final_Report.csv").
+4. Click "Process File".
 
 What to Expect
 --------------
-- A black console window will appear briefly while processing.
-- Two new files will be created in the same folder:
+- The status log in the window will show the progress.
+- Once complete, a success message will appear.
+- Two new files will be created in the SAME FOLDER as your selected input file:
     1. "Auto Picked Top.csv"
     2. "Auto Picked Bottom.csv"
-- The window will close automatically when finished.
 
 Troubleshooting
 ---------------
-If the window closes instantly and no files are created:
-1. You may be missing the "Final_Report.csv" file.
-2. The CSV file might be open in Excel (please close it and try again).
-3. To see the specific error message:
-    a. Open Command Prompt (cmd).
-    b. Drag and drop the .exe file into the Command Prompt window.
-    c. Press Enter.
-    d. Read the error message displayed.
+- If the application doesn't open, ensure you have permissions to run executables.
+- If you see an error message, read the text in the "Log Output" area for details.
+- Ensure the input file is not open in Excel while processing.
